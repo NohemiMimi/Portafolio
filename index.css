@@ -1,0 +1,56 @@
+/* Ajustar el desplazamiento debido al navbar fijo */
+#yo, #portafolio, #contacto {
+    scroll-margin-top: 80px; /* Ajusta este valor según la altura de tu navbar */
+}
+
+.navbar {
+    background-color: #557362;
+}
+
+.navbar a {
+    color: white; 
+    transition: color 0.3s ease; 
+}
+
+.texto a:hover {
+    color: #F1C3E0;
+}
+
+.contenedor{
+    background-color: #F299C9;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+
+.botones{
+    background-color: #730236;
+}
+
+.btn{
+    background-color: #77daa7;
+    color: white;
+}
+
+.btn:hover{
+    background-color: #547363;
+    color: white;
+}
+
+.contacto{
+    background-color: #F1C3E0;
+}
+
+.redes{
+    background-color: #82ad95;
+    color: white;
+}
+
+footer{
+    background-color: #557362;
+    color: white;
+}
+
+
