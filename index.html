@@ -10,13 +10,18 @@
 </head>
 <body>
     
-    <nav class="navbar p-4 fixed-top">
+    <nav class="navbar navbar-expand-lg p-4 fixed-top">
         <div class="container-fluid">
             <span class="navbar-brand mb-0 h1 text-white fs-2">Desarrolladora web</span>
-            <div class="texto">
-                <a class="navbar-brand text-uppercase" href="#yo">Sobre mi</a>
-                <a class="navbar-brand text-uppercase" href="#portafolio">Portafolio</a>
-                <a class="navbar-brand text-uppercase" href="#contacto">Contacto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="texto ms-auto">
+                    <a class="navbar-brand text-uppercase" href="#yo">Sobre mi</a>
+                    <a class="navbar-brand text-uppercase" href="#portafolio">Portafolio</a>
+                    <a class="navbar-brand text-uppercase" href="#contacto">Contacto</a>
+                </div>
             </div>
         </div>  
     </nav>
@@ -106,7 +111,7 @@
             <p class="text-justify">Pude participar en un proyecto con compañeros de la universidad
                 donde utilizamos una valvula de agua que podia abrirse y cerrarse 
                 por medio de una aplicación ademas de tener otras funciones.</p>
-            <img class="w-100" src="../img/hack.jpeg" alt="">
+            <img class="w-100" src="./img/hack.jpeg" alt="">
             
             
             </div>
@@ -130,7 +135,7 @@
                 de la universidad lo llevamos a Aguascalientes a un hidrotalent, donde pudimos presentarlo
                 a empresas importantes.
             </p>
-            <img class="w-100" src="../img/hidro.jpeg" alt="">
+            <img class="w-100" src="./img/hidro.jpeg" alt="">
             </div>
             <div class="modal-footer">
             <button type="button" class="btn w-100" data-bs-dismiss="modal">Close</button>
@@ -170,7 +175,7 @@
             </div>
             <div class="modal-body">
             <p class="text-justify">Tome un curso en Udemy sobre desarrollo web</p>
-            <img class="w-100" src="../img/udemy.jpeg" alt="">
+            <img class="w-100" src="./img/udemy.jpeg" alt="">
             </div>
             <div class="modal-footer">
             <button type="button" class="btn w-100" data-bs-dismiss="modal">Close</button>
@@ -189,7 +194,7 @@
             </div>
             <div class="modal-body">
             <p class="text-justify">Tome un curso en Sololearn sobre introducción a SQL</p>
-            <img class="w-100" src="../img/sololearn.jpeg" alt="">
+            <img class="w-100" src="./img/sololearn.jpeg" alt="">
             </div>
             <div class="modal-footer">
             <button type="button" class="btn w-100" data-bs-dismiss="modal">Close</button>
@@ -230,17 +235,17 @@
     </div>
 
     <div class="contacto row p-5" id="contacto">
-        <div class="col d-flex justify-content-center align-items-center">
+        <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
             <h4 class="text-center display-1">¡Contactame!</h4>
         </div>
 
         <div class="col">
             <form>
-                <div class="mb-3">
+                <div class="col-12 mb-3">
                 <label class="form-label">Nombre completo</label>
                 <input type="text" class="form-control">
                 </div>
-                <div class="mb-3">
+                <div class="col-12 mb-3">
                 <label class="form-label">Correo electrónico</label>
                 <input type="email" class="form-control" aria-describedby="emailHelp">
                 </div>
@@ -259,7 +264,7 @@
 
     <div class="redes row">
 
-        <div class="col my-5">
+        <div class="col-12 col-md-4 my-5">
         <div class="d-flex justify-content-center">
             <h3 class="fw-lighter">Direccion</h3>
         </div>
@@ -267,7 +272,7 @@
             <p>Fracc. Magisterial <br> Edmundo Gamez Orozco #217 <br> Calvillo Aguascalientes</p>
         </div>
         </div>
-        <div class="col my-5">
+        <div class="col-12 col-md-4 my-5">
         <div class="d-flex justify-content-center">
             <h3 class="fw-lighter">Redes sociales</h3>
         </div>
@@ -292,7 +297,7 @@
             </a>
         </div>
         </div>
-        <div class="col my-5">
+        <div class="col-12 col-md-4 my-5">
         <div class="d-flex justify-content-center">
             <h3 class="fw-lighter">Número celular</h3>
         </div>
